@@ -46,9 +46,10 @@ Azure Synapse Analytics: For querying and managing external tables.
 Power BI: For data visualization and reporting.                                                                                                                                                                    
 
 ## Dataset
-AdventureWorks Dataset:https://github.com/anshlamba03/Adventure-Works-Data-Engineering-Project/tree/main/Data                                                                                                        Source: GitHub                                                                                                                                                                                                    
-Type: CSV files (10 files ingested)                                                                                                                                                                                
-Contains sales data used for reporting and analysis.
+AdventureWorks Dataset: https://github.com/anshlamba03/Adventure-Works-Data-Engineering-Project/tree/main/Data                                                                                                  
+Source: GitHub                                                                                                                                                                                                  
+Type: CSV files (10 files ingested)                                                                                                                                                                          
+Description: Contains sales data used for reporting and analysis.                                                                                                                                            
 
 ## ETL Pipeline
 
