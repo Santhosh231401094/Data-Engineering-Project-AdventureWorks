@@ -39,16 +39,16 @@ The workflow follows the Medallion Architecture pattern:
 ## Technical Stack
 The project utilizes the following technologies:
 
-Azure Data Factory: For data ingestion and pipeline creation.
-Azure Data Lake: For data storage in Bronze, Silver, and Gold containers.
-Azure Databricks: For data transformation and enrichment.
-Azure Synapse Analytics: For querying and managing external tables.
-Power BI: For data visualization and reporting.
+Azure Data Factory: For data ingestion and pipeline creation.                                                                                                                                                        
+Azure Data Lake: For data storage in Bronze, Silver, and Gold containers.                                                                                                                                            
+Azure Databricks: For data transformation and enrichment.                                                                                                                                                          
+Azure Synapse Analytics: For querying and managing external tables.                                                                                                                                                
+Power BI: For data visualization and reporting.                                                                                                                                                                    
 
 ## Dataset
-AdventureWorks Dataset:
-Source: GitHub
-Type: CSV files (10 files ingested)
+AdventureWorks Dataset                                                                                                                                                                                      
+Source: GitHub                                                                                                                                                                                                    
+Type: CSV files (10 files ingested)                                                                                                                                                                                
 Contains sales data used for reporting and analysis.
 
 ## ETL Pipeline
