@@ -33,8 +33,8 @@ Interactive dashboards provide insights, such as sales analysis, from the Advent
 
 ## Architecture Diagram
 The workflow follows the Medallion Architecture pattern:
+![proj1 archi](https://github.com/user-attachments/assets/f17934b9-f08c-4e68-be4c-e0a4dac46743)
 
-![diagram-export-1-16-2025-2_40_39-AM](https://github.com/user-attachments/assets/d205bbf3-0715-46cc-976e-205c726b282b)
 
 ## Technical Stack
 The project utilizes the following technologies:
@@ -81,13 +81,13 @@ Power BI connects to Synapse to create interactive dashboards for insights.
 
 
 ## Solution Highlights
-Dynamic Pipelines: Parameterized pipelines in ADF automate the ingestion process.
-Efficient Transformations: Databricks ensures data quality through transformation logic.
-Seamless Querying: Synapse Analytics provides easy access to data using OPENROWSET().
-Interactive Dashboards: Power BI offers a user-friendly visualization layer for reporting.
+Dynamic Pipelines: Parameterized pipelines in ADF automate the ingestion process.                                                                                                                                  
+Efficient Transformations: Databricks ensures data quality through transformation logic.                                                                                                                          
+Seamless Querying: Synapse Analytics provides easy access to data using OPENROWSET().                                                                                                                            
+Interactive Dashboards: Power BI offers a user-friendly visualization layer for reporting.                                                                                                                        
 
-## Key Features
-Implements Medallion Architecture for structured data processing.
-Integrates multiple Azure services for an end-to-end solution.
-Creates an extensible framework for large-scale data processing and analytics.
-Visualizes sales data insights using Power BI.
+## Key Features                                                                                                                                                                                                    
+Implements Medallion Architecture for structured data processing.                                                                                                                                              
+Integrates multiple Azure services for an end-to-end solution.                                                                                                                                                       
+Creates an extensible framework for large-scale data processing and analytics.                                                                                                                                      
+Visualizes sales data insights using Power BI.                                                                                                                                                                    
