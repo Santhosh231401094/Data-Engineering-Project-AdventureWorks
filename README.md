@@ -2,8 +2,12 @@
 
 ## Project Overview
 This project demonstrates an end-to-end data engineering solution using the Medallion Architecture. The workflow processes data from the AdventureWorks dataset, which is hosted on GitHub, through multiple Azure services. Starting from raw data ingestion to final reporting using Power BI, this project implements a structured and scalable ETL pipeline.
+![image](https://github.com/user-attachments/assets/28cb3c60-d011-4ff5-8107-43e34ea55c0a)
+
 
 ## Medallion Architecture Layers
+![image](https://github.com/user-attachments/assets/fe9e72ee-3d45-40f7-9856-a7f982d236eb)
+
 
 ### Bronze Layer:
 
@@ -53,20 +57,28 @@ Contains sales data used for reporting and analysis.
 
 ADF dynamically ingests CSV files from GitHub into the Bronze container.
 Uses parameterized pipelines for scalability.
+![Screenshot 2025-01-16 024449](https://github.com/user-attachments/assets/0d7a1136-4790-49db-bf54-168d3673214b)
+
 
 ### Data Transformation:
 
 Databricks performs cleaning and transformations.
 Data is saved in the Silver container for further analysis.
+![image](https://github.com/user-attachments/assets/4309f1d9-6a27-4984-aecd-6b0a1f88d852)
+
 
 ### Data Preparation for Analytics:
 
 Synapse Analytics enables querying of data from the Silver container.
 Finalized analytics-ready data is saved in the Gold container.
+![Screenshot 2025-01-16 024834](https://github.com/user-attachments/assets/bd53ddd8-df54-40c6-8198-cefd13146ffe)
+
 
 ### Visualization:
 
 Power BI connects to Synapse to create interactive dashboards for insights.
+![image](https://github.com/user-attachments/assets/15b7c37e-8d94-4202-9591-1a49bd0ec3eb)
+
 
 ## Solution Highlights
 Dynamic Pipelines: Parameterized pipelines in ADF automate the ingestion process.
